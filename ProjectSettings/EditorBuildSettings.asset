@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/PreMainMenu.unity
+    guid: 22a96a61b0e8127468cccf61796290be
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1aaeb3afb57c1394fb6b0424e65c6f9e
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 5ee3d6092c8a9944585fafd56ea67e96
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 554f9154382b76c488ad8048f88eb7fa
+  - enabled: 1
     path: Assets/Scenes/SCP008Mission.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SCP(Placeholder)Mission.unity
+    guid: fadf46a1f501567458880a3f0d09ea1a
+  - enabled: 1
+    path: Assets/Scenes/SCP4715Mission.unity
+    guid: 1dac9c22c0f42104fae6920b5a8607aa
   m_configObjects: {}
