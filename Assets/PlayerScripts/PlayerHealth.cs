@@ -1,0 +1,38 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerHealth : MonoBehaviour
+{
+    public Text healthDisplay;
+    public int health;
+    public GameObject gameEndScreen;
+
+    public void PlayerDamage(int enemydamage)
+    {
+        health -= enemydamage;
+        if (health <= 0)
+        {            
+            PlayerDie();
+        }
+    }
+
+    void PlayerDie()
+    {        
+        Destroy(gameObject);
+        bool isActive = gameEndScreen.activeSelf;
+        gameEndScreen.SetActive(!isActive);
+    }
+    void Start()
+    {
+        PlayerHealth health = GetComponent<PlayerHealth>();
+
+    }
+    void Update()
+    {
+        healthDisplay.text = "Health: " + health;
+    }
+
+}
+
