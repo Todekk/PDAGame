@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Physics
+    uniqueID: 3403052239
+    locked: 0
   - name: Tilemap
     uniqueID: 2191382171
     locked: 0
