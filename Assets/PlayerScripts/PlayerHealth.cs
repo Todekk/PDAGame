@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
         
         bool isActive = gameEndScreen.activeSelf;
         gameEndScreen.SetActive(!isActive);
-        Destroy(gameObject, 0.3f);
+        Destroy(gameObject);
     }
     void Start()
     {
