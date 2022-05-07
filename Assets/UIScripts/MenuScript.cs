@@ -10,6 +10,8 @@ public class MenuScript : MonoBehaviour
 
     public string controlMenu;
 
+    public string mainMenu;
+
 
     public void NewGame()
     {      
@@ -28,7 +30,7 @@ public class MenuScript : MonoBehaviour
         
         Application.LoadLevel(controlMenu);
 
-    }
+    }    
 
     public void QuitGame()
     {

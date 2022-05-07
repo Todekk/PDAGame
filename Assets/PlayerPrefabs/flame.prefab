@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5622704490355121213}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1.7083, y: -1.2401, z: 0}
-  m_LocalScale: {x: 0.79980123, y: 0.8714412, z: 1}
+  m_LocalPosition: {x: -1.94562, y: -1.05187, z: 0}
+  m_LocalScale: {x: 0.023797922, y: 0.025219208, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -48,6 +48,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,10 +72,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -725003707
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7273767894798361788, guid: ac558370f46b6c54fbcd00f58e1a5045,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5f852e16aabbe42408c0c94b6013ca7e, type: 3}
   m_Color: {r: 1, g: 0.41860467, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,8 +118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ee2fe9b69632c4398040fdccc8ee57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 90
-  damage: 5
+  speed: 75
+  damage: 10
   rb: {fileID: 8189784750645750897}
 --- !u!61 &2717287820843251250
 BoxCollider2D:
@@ -133,16 +134,16 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.02314192, y: 0.0121228695}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.13, y: 0.1}
+    oldSize: {x: 4.4, y: 4.4}
     newSize: {x: 1.5, y: 2.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13, y: 0.1}
+  m_Size: {x: 3.2209802, y: 3.2155561}
   m_EdgeRadius: 0

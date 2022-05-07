@@ -6,6 +6,7 @@ public class NextGoalTrigger : MonoBehaviour
 {
     
      public GameObject objective;
+     public GameObject hardMode;
      public GameObject endGoal;
      public int health = 100;
 
@@ -24,15 +25,23 @@ public class NextGoalTrigger : MonoBehaviour
             }
 
         }
-        if (health <= 0)
+            if (health <= 0)
+            {
+                bool isActive = hardMode.activeSelf;
+                hardMode.SetActive(!isActive);
+                
+
+            }
+            if (health <= 0)
         {
             bool isActive = endGoal.activeSelf;
             endGoal.SetActive(!isActive);
             
 
         }
+           
 
-        Die();
+            Die();
         }
     }
 

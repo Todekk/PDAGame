@@ -20,9 +20,10 @@ public class PlayerHealth : MonoBehaviour
 
     void PlayerDie()
     {        
-        Destroy(gameObject);
+        
         bool isActive = gameEndScreen.activeSelf;
         gameEndScreen.SetActive(!isActive);
+        Destroy(gameObject, 0.3f);
     }
     void Start()
     {

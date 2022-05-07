@@ -15,7 +15,7 @@ public class WeaponSpawner : MonoBehaviour
 
    IEnumerator SpawnAWeapon()
     {
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(4);
         Vector2 spawnPoint = new Vector2(Random.Range(-xBound, xBound), Random.Range(-yBound, yBound));
         Instantiate(weapons[Random.Range(0, weapons.Length)], spawnPoint, Quaternion.identity);
         StartCoroutine(SpawnAWeapon());
