@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         //input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+       
 
        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
@@ -37,6 +38,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        while (Input.GetKeyDown(KeyCode.E))
+        {
+            moveSpeed = moveSpeed + 1f;
+        }
         //movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
