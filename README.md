@@ -1,4 +1,5 @@
-# SCPFoundationGame
+[PDALetterOnlyLogo](https://user-images.githubusercontent.com/47458826/182371037-a31a9774-355f-4023-90ae-32900d71eba9.png)
+
 Game based on the SCP Foundation and it's mysteries.
 This is a passion project and will not be used for any type of profit.
 
