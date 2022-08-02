@@ -3152,6 +3152,7 @@ MonoBehaviour:
   startLevel: MainMenu
   levelSelect: 
   controlMenu: 
+  mainMenu: 
 --- !u!114 &237586376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10179,7 +10180,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962448456}
-  m_LocalRotation: {x: -0, y: -0, z: 0.99987304, w: 0.015934406}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9998929, w: 0.014638971}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10213,8 +10214,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 61.35
   m_PointLightOuterAngle: 92.33
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 4.4352336
+  m_PointLightInnerRadius: 0.83713424
+  m_PointLightOuterRadius: 7.3000975
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -13171,6 +13172,7 @@ MonoBehaviour:
   startLevel: MainMenu
   levelSelect: 
   controlMenu: 
+  mainMenu: 
 --- !u!114 &1388406470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14730,6 +14732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objective: {fileID: 1896346601}
+  hardMode: {fileID: 0}
   endGoal: {fileID: 1553633464}
   health: 1
 --- !u!61 &1582412643
@@ -18249,7 +18252,7 @@ GameObject:
   - component: {fileID: 1935302358}
   - component: {fileID: 1935302357}
   m_Layer: 0
-  m_Name: d8uw910-2308db5c-22ae-44bd-b19f-600fc38dbf9e
+  m_Name: Ka'taal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18295,7 +18298,7 @@ SpriteRenderer:
   m_SortingLayerID: 1285898751
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 291aa828956566a47b8e33b60051b412, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 406e642643ac6e64cb892987d54087ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18314,7 +18317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935302356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.122496, y: 4.1888366, z: 23.09217}
+  m_LocalPosition: {x: 2.45, y: 4.38, z: 23.09217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 962448457}
