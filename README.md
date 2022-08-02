@@ -12,7 +12,7 @@ Players are greeted by an oddly looking TV with green static and the PDA logo, o
 ## Main Menu
 The **Main Menu** is a world map that gives you access to different missions where you have various objectives to complete
 ![Map](https://user-images.githubusercontent.com/47458826/167254780-8aa84e7b-d435-4a6e-bb0f-54157f6ae90d.png)
-Every mission has a unique SCP for you to contain, some are contained with brute force some with puzzle solving.
+Every mission has a unique twist, from normal shoot 'em up to puzzle solving.
 
 ## Missions
 Before you start a mission you get a brief description of your objective.
