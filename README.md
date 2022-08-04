@@ -6,17 +6,29 @@ This is a passion project.
 
 ## On Launch
 Players are greeted by an oddly looking TV with green static and the PDA logo, once they click the play button the game launches:
-![Launch](https://user-images.githubusercontent.com/47458826/167254744-33837483-b18f-447b-b3ab-093d25ceb4f7.png)
+<br>![Launch](https://user-images.githubusercontent.com/47458826/167254744-33837483-b18f-447b-b3ab-093d25ceb4f7.png)
 
 
 ## Main Menu
 The **Main Menu** is a world map that gives you access to different missions where you have various objectives to complete
-![Map](https://user-images.githubusercontent.com/47458826/167254780-8aa84e7b-d435-4a6e-bb0f-54157f6ae90d.png)
+<br>![Map](https://user-images.githubusercontent.com/47458826/167254780-8aa84e7b-d435-4a6e-bb0f-54157f6ae90d.png)
 Every mission has a unique twist, from normal shoot 'em up to puzzle solving.
 
 ## Missions
 Before you start a mission you get a brief description of your objective.
-![Description](https://user-images.githubusercontent.com/47458826/167254829-801bbee9-561a-43f6-8a69-fe0cc162e9d8.png)
+<br>![missionBrief](https://user-images.githubusercontent.com/47458826/182966857-e9504aa1-cc00-4609-9c2a-5aa9fc517515.png)
 #### Gameplay 
-![Gameplay](https://user-images.githubusercontent.com/47458826/167254843-6b07dca6-56f5-4969-b998-26f768edabb1.png)
-*Screenshot from the Zombie virus mission.*
+Controls: WASD - Movement, Left Mouse Buttom (LMB) - Shooting, R - Reload, N - Night Vision, G - Use (Objectives)
+##### Pause Menu
+Players can pause the game with P, giving them the option to go back to the main menu or exit the game.
+<br>![pauseMenu](https://user-images.githubusercontent.com/47458826/182964396-84e6e98c-e629-4f05-8bc6-c86668fee5c4.png)
+##### Objectives tab
+Players can check their objectives by pressing tab, it displays your Bonus and Hidden objectves, unlike the in-game GUI which only displays your current main objective.
+<br>![objectiveTab](https://user-images.githubusercontent.com/47458826/182964443-93f53e83-39fc-4f6c-b72f-3ac71827bb76.png)
+##### Night Vision
+Players can toggle Night Vision by pressing N.
+<br>![noNightVision](https://user-images.githubusercontent.com/47458826/182964449-8eb6459b-518d-4f50-bbc8-f3564c65a897.png)
+<br>*Night Vision Toggled Off*
+<br>![nightVision](https://user-images.githubusercontent.com/47458826/182964454-773e29a2-99cb-4abc-be5e-1e5e09a5a99d.png)
+<br>*Night Vision Toggled On*
+
