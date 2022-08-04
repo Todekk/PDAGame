@@ -18,7 +18,7 @@ Every mission has a unique twist, from normal shoot 'em up to puzzle solving.
 Before you start a mission you get a brief description of your objective.
 <br>![missionBrief](https://user-images.githubusercontent.com/47458826/182966857-e9504aa1-cc00-4609-9c2a-5aa9fc517515.png)
 #### Gameplay 
-Controls: WASD - Movement, Left Mouse Buttom (LMB) - Shooting, R - Reload, N - Night Vision, G - Use (Objectives)
+Controls: WASD - Movement, Left Mouse Buttom (LMB) - Shooting, R - Reload, N - Night Vision, G - Use (Objectives), P - Pause Menu, TAB - Mission Objectives.
 ##### Pause Menu
 Players can pause the game with P, giving them the option to go back to the main menu or exit the game.
 <br>![pauseMenu](https://user-images.githubusercontent.com/47458826/182964396-84e6e98c-e629-4f05-8bc6-c86668fee5c4.png)
