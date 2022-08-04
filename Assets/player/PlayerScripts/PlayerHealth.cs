@@ -8,22 +8,34 @@ public class PlayerHealth : MonoBehaviour
     public Text healthDisplay;
     public int health;
     public GameObject gameEndScreen;
+    public int healAmount;    
+    public GameObject playerCharacter;
 
     public void PlayerDamage(int enemydamage)
     {
         health -= enemydamage;
         if (health <= 0)
-        {            
+        {
+            healthDisplay.text = "Health:0%";
             PlayerDie();
         }
     }
 
+    public void PlayerHealing()
+    {
+       health += 25;
+       if (health > 100)
+        {
+          health = 100;
+        }
+       
+    }
+
     void PlayerDie()
-    {        
-        
-        bool isActive = gameEndScreen.activeSelf;
-        gameEndScreen.SetActive(!isActive);
-        Destroy(gameObject);
+    {     
+        gameEndScreen.SetActive(true);
+        playerCharacter.SetActive(false);
+        //Destroy(gameObject);
     }
     void Start()
     {
@@ -32,7 +44,19 @@ public class PlayerHealth : MonoBehaviour
     }
     void Update()
     {
-        healthDisplay.text = "Health: " + health;
+        healthDisplay.text = "Health:" + health +"%";
+        if(health < 50 && health > 25)
+        {
+           healthDisplay.color = Color.yellow;
+        }
+        if(health > 50)
+        {
+            healthDisplay.color = Color.white;
+        }
+        if(health < 25)
+        {
+            healthDisplay.color = Color.red;
+        }
     }
 
 }

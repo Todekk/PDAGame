@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d42faa17fb3ee439048e54c8a3fefb, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
+  currentWeaponImage: {fileID: -9168038300045709008, guid: 02c0d8fb3dd3cde488cee556e26007a1,
+    type: 3}
   currentWeaponSpr: {fileID: 21300000, guid: 6fc7f2bf282d946439c986a832f44ef3, type: 3}
   bulletPrefab: {fileID: 275221368317444496, guid: c2690e12bd705f4498ad9b30784619a8,
     type: 3}
   fireRate: 0.5
   damage: 60
+  currentClip: 6
+  maxClipSize: 6
+  currentAmmo: 30
+  maxAmmoSize: 30
