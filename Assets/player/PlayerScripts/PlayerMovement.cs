@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,12 +15,13 @@ public class PlayerMovement : MonoBehaviour
     public int healthPacks = 5;
     public GameObject nightVision;
     public GameObject terrainLight;
+    
 
     public Camera cam;    
 
     Vector2 movement;
     Vector2 mousePos;
-
+   
     // Update is called once per frame
     void Update()
     {
@@ -31,10 +33,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 nightVision.SetActive(false);
                 terrainLight.SetActive(true);
+                
             }
             else
             {
-                nightVision.SetActive(true);
+                nightVision.SetActive(true);                
                 terrainLight.SetActive(false);
             }
         }
