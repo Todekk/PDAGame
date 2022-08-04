@@ -1,6 +1,6 @@
 ![LOGO](https://user-images.githubusercontent.com/47458826/182373045-3e983132-ef7a-4d94-aefb-ca8c600dd9d9.png)
 
-Planetary Defence Agency is a game set in the future of 2095, where Ka'taal, an omnipotent being, has proclaimed to be the God of mankind and has enforced his law onto the planet. You are a soldier in the PDA which is an agency based in New Babylon. You have to defend the planet from alien invasions, virus spreads, terrorist attacks and Gor'krum, the biggest threat to Ka'taal.
+Planetary Defence Agency is a game set in the future of 2095, where Ka'taal, an omnipotent being, has proclaimed to be the God of mankind and has enforced his law onto the planet. You are a soldier in the PDA, which is an agency based in New Babylon. You have to defend the planet from alien invasions, viruses, terrorist attacks and other threats to planet Earth.
 
 This is a passion project.
 
