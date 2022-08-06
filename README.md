@@ -15,7 +15,7 @@ Players are greeted by an oddly looking TV with green static and the PDA logo, o
 ## Main Menu
 The **Main Menu** is a world map that gives you access to different missions where you have various objectives to complete
 <br>![LevelSelect](https://user-images.githubusercontent.com/47458826/183267692-dab24086-cba9-44a0-b566-466b5b31e12c.png)
-Every mission has a unique twist, from normal shoot 'em up to puzzle solving.
+<br>Every mission has a unique twist, from normal shoot 'em up to puzzle solving.
 
 
 ## Missions
