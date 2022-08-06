@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public int healthPacks = 5;
     public GameObject nightVision;
     public GameObject terrainLight;
+    public GameObject nightVisionPortrait;
     
 
     public Camera cam;    
@@ -33,12 +34,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 nightVision.SetActive(false);
                 terrainLight.SetActive(true);
-                
+                nightVisionPortrait.SetActive(false);
             }
             else
             {
                 nightVision.SetActive(true);                
                 terrainLight.SetActive(false);
+                nightVisionPortrait.SetActive(true);
             }
         }
         //healing
