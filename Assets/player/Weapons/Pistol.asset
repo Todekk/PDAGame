@@ -18,7 +18,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6077535104301592224, guid: 6d2fa082df756bd40b866e7b17809145,
     type: 3}
   fireRate: 6
-  damage: 1
+  damage: 10
   currentClip: 45
   maxClipSize: 45
   currentAmmo: 180

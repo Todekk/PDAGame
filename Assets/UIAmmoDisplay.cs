@@ -8,6 +8,7 @@ public class UIAmmoDisplay : MonoBehaviour
 {
     public PlayerMovement weapon;
     public Text text;
+    public enemyhealth killCounter;
     // Start is called before the first frame update
     void Start()
     {

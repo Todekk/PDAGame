@@ -1,5 +1,77 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &679834932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 679834933}
+  - component: {fileID: 679834934}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &679834933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679834932}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7220247, w: -0.69186735}
+  m_LocalPosition: {x: 0.0232, y: 0.0554, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8614456831965006455}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -92.12}
+--- !u!114 &679834934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679834932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.593
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.8
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: f13a9ee8b79eb38900000000a3779fc57fda42744552c9d4375df78f
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 20.75
+  m_PointLightOuterAngle: 47.62
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 2.836372
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &2111058414
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,7 +101,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8614456831965006455}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -92.12}
 --- !u!114 &2111058416
 MonoBehaviour:
@@ -49,7 +121,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.8
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: f13a9ee8b79eb38900000000a3779fc54552c9d4375df78f
+  m_ApplyToSortingLayers: 9bd69d820000000003819490c93960fdb391b5f9ff41a54c0f545c47
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -251,6 +323,7 @@ Transform:
   m_LocalScale: {x: 1.0705382, y: 0.93102574, z: 1}
   m_Children:
   - {fileID: 8614456831327225475}
+  - {fileID: 679834933}
   - {fileID: 2111058415}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -343,6 +416,11 @@ MonoBehaviour:
   bullet: {fileID: 6077535104301592224, guid: 6d2fa082df756bd40b866e7b17809145, type: 3}
   moveSpeed: 1
   rb: {fileID: 8614456831965006409}
+  playerHealth: {fileID: 0}
+  healthPacks: 5
+  nightVision: {fileID: 0}
+  terrainLight: {fileID: 0}
+  nightVisionPortrait: {fileID: 0}
   cam: {fileID: 0}
 --- !u!114 &8614456831965006452
 MonoBehaviour:
@@ -373,8 +451,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthDisplay: {fileID: 0}
-  health: 2147483647
+  health: 100
   gameEndScreen: {fileID: 0}
+  healAmount: 0
+  playerCharacter: {fileID: 8614456831965006411}
 --- !u!61 &8614456831965006450
 BoxCollider2D:
   m_ObjectHideFlags: 0

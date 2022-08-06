@@ -462,6 +462,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3682654480717454250, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 483
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682654480717454251, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 202eac1a0f309654cbef827a283c452a,
+        type: 3}
+    - target: {fileID: 3682654480992622364, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682654480992622365, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 34320b726b55cf74b8136049b3ac6d9d,
+        type: 3}
     - target: {fileID: 3682654481574167659, guid: 653927a9ea3018f488cdd3766308d1d1,
         type: 3}
       propertyPath: m_Pivot.x
@@ -572,5 +594,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3682654481626963787, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 34320b726b55cf74b8136049b3ac6d9d,
+        type: 3}
+    - target: {fileID: 3682654482178729312, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -540
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682654482178729313, guid: 653927a9ea3018f488cdd3766308d1d1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e922f2ffe27064444be7e5bbc7b4b3f7,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 653927a9ea3018f488cdd3766308d1d1, type: 3}

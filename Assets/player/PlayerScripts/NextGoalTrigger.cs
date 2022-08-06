@@ -6,8 +6,8 @@ public class NextGoalTrigger : MonoBehaviour
 {
     
      public GameObject objective;
-     public GameObject hardMode;
-     public GameObject endGoal;
+     public GameObject hardMode;    
+    public GameObject endGoal;
      public int health = 100;
 
     public void TakeDamage(int damage)

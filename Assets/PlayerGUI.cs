@@ -7,6 +7,8 @@ public class PlayerGUI : MonoBehaviour
 
     public GameObject objectiveMenu;
     public GameObject menu;
+    public int pause;
+    public int inGame ;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,12 +29,12 @@ public class PlayerGUI : MonoBehaviour
             if (objectiveMenu.activeSelf)
             {
                 objectiveMenu.SetActive(false);
-                Time.timeScale = 1.0f;
+                Time.timeScale = inGame;
             }
             else
             {
                 objectiveMenu.SetActive(true);
-                Time.timeScale = 0.0f;
+                Time.timeScale = pause;
             }
         }
     }
@@ -43,12 +45,12 @@ public class PlayerGUI : MonoBehaviour
             if (menu.activeSelf)
             {
                 menu.SetActive(false);
-                Time.timeScale = 1.0f;
+                Time.timeScale = inGame;
             }
             else
             {
                 menu.SetActive(true);
-                Time.timeScale = 0.0f;
+                Time.timeScale = pause;
             }
         }
     }

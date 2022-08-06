@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d42faa17fb3ee439048e54c8a3fefb, type: 3}
   m_Name: Silencer
   m_EditorClassIdentifier: 
+  currentWeaponImage: {fileID: -6609606741681891718, guid: e3fe186f4b6cbc24cbae81086dc10f24,
+    type: 3}
   currentWeaponSpr: {fileID: 21300000, guid: 0933671f007a6a4448757410488632cb, type: 3}
   bulletPrefab: {fileID: 2747217821109758419, guid: e77d3990accb4f04c83c9443f42ed2d5,
     type: 3}
   fireRate: 2
   damage: 50
+  currentClip: 15
+  maxClipSize: 15
+  currentAmmo: 500
+  maxAmmoSize: 500

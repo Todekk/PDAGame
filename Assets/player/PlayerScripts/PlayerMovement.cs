@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private float nextTimeOfFire = 0;
     public int healthPacks = 5;
     public GameObject nightVision;
+    public GameObject thermalVision;
     public GameObject terrainLight;
     public GameObject nightVisionPortrait;
     
@@ -33,12 +34,14 @@ public class PlayerMovement : MonoBehaviour
             if(nightVision.activeSelf == true)
             {
                 nightVision.SetActive(false);
+                thermalVision.SetActive(false);
                 terrainLight.SetActive(true);
                 nightVisionPortrait.SetActive(false);
             }
             else
             {
-                nightVision.SetActive(true);                
+                nightVision.SetActive(true);
+                thermalVision.SetActive(true);
                 terrainLight.SetActive(false);
                 nightVisionPortrait.SetActive(true);
             }
