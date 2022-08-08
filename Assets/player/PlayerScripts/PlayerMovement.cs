@@ -17,13 +17,18 @@ public class PlayerMovement : MonoBehaviour
     public GameObject thermalVision;
     public GameObject terrainLight;
     public GameObject nightVisionPortrait;
-    
+    private AudioSource steps;
+    bool isMoving = false;
 
     public Camera cam;    
 
     Vector2 movement;
     Vector2 mousePos;
-   
+    private void Start()
+    {
+        steps = GetComponent<AudioSource>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -71,9 +76,15 @@ public class PlayerMovement : MonoBehaviour
         //input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-       
-
-       mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        /*if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            steps.Play();
+        }
+        if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.S))
+        {
+            steps.Stop();
+        }*/
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
     
 

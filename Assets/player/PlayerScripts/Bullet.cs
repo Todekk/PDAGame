@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public float speed = 20f;
     private AudioSource gunShot;
     private Vector2 dir;
-    public int damage = 15;
+    public int damage;
         public Rigidbody2D rb;
 
     void Start()
@@ -28,21 +28,35 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        enemyhealth enemy = hitInfo.GetComponent<enemyhealth>();
-        if (enemy != null)
+        if (hitInfo.tag == "Enemy")
         {
+            enemyhealth enemy = hitInfo.GetComponent<enemyhealth>();
             enemy.TakeDamage(damage);
-        }
-        Debug.Log(hitInfo.name);
+            /*if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }*/
+            Debug.Log(hitInfo.name);
 
-        NextGoalTrigger trigger = hitInfo.GetComponent<NextGoalTrigger>();
-        if (trigger != null)
-        {
-            trigger.TakeDamage(damage);
+            NextGoalTrigger trigger = hitInfo.GetComponent<NextGoalTrigger>();
+            if (trigger != null)
+            {
+                trigger.TakeDamage(damage);
+            }
         }
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        /*if(collision.gameObject.TryGetComponent<enemyhealth>(out enemyhealth enemyComponent))
+        {
+            enemyComponent.TakeDamage(damage);
+        }
+        Debug.Log(collision.name);*/
+
         //ScreenShakeController.instance.StartShake(.5f, .008f);
-        
+
         Destroy(gameObject, 0.4f);
-        
     }
 }
+

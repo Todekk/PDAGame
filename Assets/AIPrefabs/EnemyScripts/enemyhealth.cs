@@ -23,7 +23,7 @@ public class enemyhealth : MonoBehaviour
     void Die ()
     {        
         ScreenShakeController.instance.StartShake(.5f, .04f);        
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
     private void OnDestroy()
     {
